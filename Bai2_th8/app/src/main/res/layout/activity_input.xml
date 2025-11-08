@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".InputActivity">
+
+    <EditText
+        android:id="@+id/edtDaySo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập dãy số (cách nhau bởi khoảng trắng)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#00674F"
+        android:layout_marginTop="16dp"
+        android:text="Xác nhận" />
+
+</LinearLayout>
